@@ -8,9 +8,15 @@ echo "hello $name";
 #php supports various datatypes
 $string="hello";
 $number=10;
-$float=10.23;
-$boolean=True;
-echo "$string $number $float $boolean \n";
+$floatt=10.23;
+$booleann=True;
+echo "$string $number $floatt $booleann \n";
 #the above is the main four i'll add more as i move on to complex topics
+//now to get a varible datatype in php we use var_dump() function in my understanding i guess its builtin function
+
+var_dump($name);
+var_dump($number);
+var_dump($floatt);
+var_dump($booleann);
 
 ?>
